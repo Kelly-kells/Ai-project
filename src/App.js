@@ -1,18 +1,25 @@
 
 import React from 'react'
-import {Article,Brand,Cta,Feature,Navbar} from'./Components'
+import {Brand,Cta,Navbar} from'./Components'
+import{Blog,Features,Header,Possibility,WhatGPT3,Footer} from './Containers'
 
 import './index.css'
 
 
 const App = () => {
   return (
-    <div  className='bg-slate-400'>
-      <Article/>
-      <Brand/>
-      <Cta/>
-      <Feature/>
-      <Navbar/>
+    <div  className='App'>
+ <div className="gradient-bg">
+   <Navbar/>
+   <Header/>
+ </div> 
+  <Brand/>
+  <WhatGPT3/>
+  <Features/>
+  <Possibility/>
+  <Cta/>
+  <Blog/>
+  <Footer/>
      
     </div>
   )
