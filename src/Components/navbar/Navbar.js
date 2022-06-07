@@ -5,21 +5,11 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { IoLogoVk } from "react-icons/io";
 
 
-const Menu = () =>{
-<>
-<p>
-  <a href="#home">Home</a> </p>
- <p>
-  <a href="#wgpt3">About</a></p>
-<p>
-  <a href="#possibillity">Open Ai</a> </p>
-<p>
-  <a href="#features">Case studies</a> </p>
-<p> <a href="#blog">Library</a>
-</p>
-</>
-}
+
 const Navbar = () => {
+
+
+  
   const[toggleMenu, setTogleMenu]=useState(false)
   return (
     <div className="gpt3__navbar">
@@ -28,7 +18,16 @@ const Navbar = () => {
           <IoLogoVk color="white" fontSize="3rem" />
         </div>
         <div className="gpt3__navbar-links-container">
-          <Menu />
+          <p>
+            <a href="#home">Home</a> </p>
+          <p>
+            <a href="#wgpt3">About</a></p>
+          <p>
+            <a href="#possibillity">Open Ai</a> </p>
+          <p>
+            <a href="#features">Case studies</a> </p>
+          <p> <a href="#blog">Library</a>
+          </p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
@@ -41,7 +40,16 @@ const Navbar = () => {
          {toggleMenu &&(
            <div className="gpt3__navbar-menu-container scale-up-center">
              <div className="gpt3__navbar-menu-container-links">
-             <Menu />
+             <p>
+            <a href="#home">Home</a> </p>
+          <p>
+            <a href="#wgpt3">About</a></p>
+          <p>
+            <a href="#possibillity">Open Ai</a> </p>
+          <p>
+            <a href="#features">Case studies</a> </p>
+          <p> <a href="#blog">Library</a>
+          </p>
              </div>
            </div>
          )}
