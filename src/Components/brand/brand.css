@@ -1,0 +1,24 @@
+.gpt3__brands{
+    margin-top: 30px;
+
+    
+}
+.gpt3__brands-contents{
+    display: flex;
+     justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+@media screen and (max-width:1050px){
+    .gpt3__brands-contents{
+        font-size: 3rem;
+    }
+    .gpt3__brands{
+        margin-top: 25px;
+    }
+
+
+}

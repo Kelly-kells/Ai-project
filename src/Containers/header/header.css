@@ -46,7 +46,7 @@
     padding: 1rem;
 }
 .gpt3__header-content__input button{
-    background-color: #b5179e;
+    background-color: var(--button-color);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: #fff;
