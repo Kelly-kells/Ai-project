@@ -16,9 +16,12 @@ a {
   text-decoration: none;
 }
 .gradient-bg {
+  background: radial-gradient(circle, rgba(17,0,28,1) 5%, rgba(137,0,242,1) 15%, rgba(17,0,28,1) 38%);
+}
+  /**{
   background: -moz-linear-gradient(
     90deg,
-    rgba(69, 123, 157, 1) 6%,
+    rgb(1, 13, 20) 6%,
     rgba(29, 53, 87, 1) 41%,
     rgba(29, 53, 87, 1) 59%,
     rgba(29, 53, 87, 1) 99%,
@@ -27,8 +30,8 @@ a {
 
   background: -webkit-linear-gradient(
     90deg,
-    rgba(69, 123, 157, 1) 6%,
-    rgba(29, 53, 87, 1) 41%,
+    rgb(0, 10, 15) 6%,
+    rgb(0, 3, 7) 41%,
     rgba(29, 53, 87, 1) 59%,
     rgba(29, 53, 87, 1) 99%,
     rgba(28, 46, 70, 0.88) 99%
@@ -36,7 +39,7 @@ a {
 
   background: -o-linear-gradient(
     90deg,
-    rgba(69, 123, 157, 1) 6%,
+    rgb(4, 23, 36) 6%,
     rgba(29, 53, 87, 1) 41%,
     rgba(29, 53, 87, 1) 59%,
     rgba(29, 53, 87, 1) 99%,
@@ -62,7 +65,7 @@ a {
     rgba(29, 53, 87, 1) 99%,
     rgba(28, 46, 70, 0.88) 99%
   );
-}
+}**/
 .gradient-text{
   
   background: var(--gradient-text);
