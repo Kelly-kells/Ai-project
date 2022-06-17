@@ -61,7 +61,7 @@
   align-items: flex-end;
   flex-direction: column;
   text-align: end;
-  background: var(--color-footer);
+  background: black;
   padding: 2rem;
   position: absolute;
   top: 40px;
