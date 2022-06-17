@@ -1,0 +1,28 @@
+.gpt3__features-container__feature {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 1rem;
+}
+.gpt3__features-container__feature-title {
+  flex: 1;
+  max-width: 180px;
+  margin-right: 1.5rem;
+}
+.gpt3__features-container__feature-title h1 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+.gpt3__features-container__feature-title div {
+  height: 3px;
+  width: 38px;
+
+  border-radius: 0px;
+  color: black;
+  margin-bottom: 0.25rem;
+}
