@@ -11,22 +11,36 @@ const Feature = ({ title, text }) => {
       <div className="gpt3__features-container__feature">
         <p> {text}</p>
       </div>
+      <div className="gpt3__navbar">
+      <div className="gpt3__navbar-links">
+        <div className="gpt3__navbar-links-logo">
+          <IoLogoVk color="white" fontSize="3rem" />
+        </div>
+        <div className="gpt3__navbar-links-container">
+          <Menu />
+        </div>
+      </div>
+      <div className="gpt3__navbar-sign">
+        <p>Sign in</p>
+        <button type="button">Sign up</button>
+      </div>
+      <div className="gpt3__navbar-menu">
+         {toggleMenu ? <RiCloseLine color="white" size={27} onClick={()=> setTogleMenu(false)} />
+         : < RiMenu3Line color="white" size={27} onClick={()=> setTogleMenu(true)} />}
+         {toggleMenu &&(
+           <div className="gpt3__navbar-menu-container scale-up-center">
+             <div className="gpt3__navbar-menu-container-links">
+             <Menu />
 
-
-      <div className="gpt3__whatGPT3-feature">
-        <Feature title={"What is GPT-3"} text={"We so opinion friends me message as delight. Whole front do of plate heard oh ought.His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."} />
+          <div className="gpt3__navbar-menu-container-links-sign">
+        <p>Sign in</p>
+        <button type="button">Sign up</button>
       </div>
-      <div className="gpt3__whatGPT3-heading">
-        <h1 className="gradient-text">
-          The Possibilities Are Beyond Your Imagination.
-        </h1>
-        <p>explore the library</p>
+             </div>
+           </div>
+         )}
       </div>
-      <div className="gpt3__whatGpt3-container">
-        <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. " />
-        <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-        <Feature title="Education"  text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"/>
-      </div>
+    </div>
     </div>
 
     
