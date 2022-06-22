@@ -6,24 +6,14 @@ import { IoLogoVk } from "react-icons/io";
 
 const Menu = () => (
   <>
-  <a>
-    <p>
-      <a href="#home">Home</a>{" "}
-    </p>
-    <p>
-      <a href="#wgpt3">About</a>
-    </p>
-    <p>
-      <a href="#possibillity">Open Ai</a>{" "}
-    </p>
-    <p>
-      <a href="#features">Case studies</a>{" "}
-    </p>
-    <p>
-      {" "}
-      <a href="#blog">Library</a>
-    </p>
-  </>
+  <p><a href="#home">Home</a></p>
+          <p><a href="#wgpt3">What is GPT3?</a></p>
+          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#features">Case Studies</a></p>
+          <p><a href="#blog">Library</a></p>
+          </>       
+ 
+ 
 );
 
 const Navbar = () => {
