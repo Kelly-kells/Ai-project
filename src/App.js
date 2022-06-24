@@ -1,8 +1,9 @@
 import React from "react";
-import { Brand, Cta, Navbar } from "./Components";
+import { Brand, Cta, Navbar,} from "./Components";
 import {
   Blog,
   Features,
+  
   Header,
   Possibility,
   WhatGPT3,
@@ -20,6 +21,7 @@ const App = () => {
       </div>
       <Brand />
       <WhatGPT3 />
+      
       <Features />
       <Possibility />
       <Cta />
