@@ -42,7 +42,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: var(--color-text);
+  color: #d8f3dc;
 }
 
 @media screen and (max-width: 550px) {
