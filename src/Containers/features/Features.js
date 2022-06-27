@@ -31,12 +31,15 @@ const Features = () => {
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>Request Early Access to Get Started</p>
-        <div className="gpt3__feature-container">
-        {featuresData.map((item, index)=>(
-          <Feature title={item.title} text={item.text} key={item.title + index}/>
+      </div>
+      <div className="gpt3__feature-container">
+        {featuresData.map((item, index) => (
+          <Feature
+            title={item.title}
+            text={item.text}
+            key={item.title + index}
+          />
         ))}
-        </div>
-       
       </div>
     </div>
   );
