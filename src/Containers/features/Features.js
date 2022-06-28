@@ -28,7 +28,7 @@ const Features = () => {
     <div className="gpt3__features section__padding">
       <div className="gpt3__features-heading">
         <h1 className="gradient-text">
-          Let’s Build Something amazing with GPT-3 OpenAI
+        The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen
         </h1>
         <p>Request Early Access to Get Started</p>
       </div>
