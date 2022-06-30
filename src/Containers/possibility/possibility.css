@@ -1,0 +1,20 @@
+.gpt__possibility {
+  display: flex;
+  flex-direction: row;
+}
+
+.possibility-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.possibility-image img {
+  width: 100%;
+}
+.gpt3__possibility-content {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
