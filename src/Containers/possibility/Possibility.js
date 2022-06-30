@@ -10,9 +10,8 @@ const Possibility = () => {
       </div>
 
       <div className="gpt3__possibility-content">
-        <h1 className="gradient-text">
-          The Possibilities Are Beyond Your Imagination
-        </h1>
+        <h4>Restart the future</h4>
+        <h1>The Possibilities Are Beyond Your Imagination</h1>
         <p>
           Yet bed any for travelling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy

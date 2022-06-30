@@ -17,4 +17,28 @@
   flex: 1;
   flex-direction: column;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gpt3__possibility-content h1 {
+  font-weight: 800;
+  line-height: 1.5;
+  font-size: 2rem;
+  color: #d8f3dc;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.gpt3__possibility-content h4 {
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #d8f3dc;
+
+  margin-left: 2rem;
+}
+.gpt3__possibility-content p {
+  color: #d8f3dc;
+  line-height: 2;
 }
