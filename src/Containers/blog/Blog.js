@@ -22,33 +22,34 @@ const Blog = () => {
             date=" june 12 2022"
             title="Let's figure it out together"
           />
-          </div>
-          <div className="gpt3__blog-container__groupC">
+         
+          
           <Article
             imgUrl={blog03}
             date=" june 12 2022"
-            title="Let's figure it out together"
+            
+            title="Let's figure "
           />
-          </div>
+       
 
-          <div className="gpt__blog-container__groupD">
+          
           <Article
             imgUrl={blog04}
             date=" june 12 2022"
             title="Let's figure it out together"
           />
          
-          </div>
+         
           
 
-          <div className="gpt3__blog-container__groupE">
+         
           <Article
             imgUrl={blog05}
             date=" june 12 2022"
             title="Let's figure it out together"
           />
-          </div>
           
+          </div>
          
         
       </div>
