@@ -8,10 +8,14 @@ const Article = ({ imgUrl, date, title }) => {
         <img src={imgUrl} alt="" />
       </div>
       <div className="gpt3__blog-article-content">
+        <div>
         <p>{date}</p>
         <h2>{title}</h2>
         <p>Read more..</p>
+        </div>
+        
       </div>
+     
     </div>
   );
 };

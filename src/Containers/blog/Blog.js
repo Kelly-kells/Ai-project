@@ -12,9 +12,7 @@ const Blog = () => {
       </div>
       <div className="gpt3__blog-container">
         <div className="gbpt3__blog-container__groupA">
-          <Article imgUrl={blog01}
-          title="figuring it out together" />
-
+          <Article imgUrl={blog01} title="figuring it out together" />
         </div>
         <div className="gbpt3__blog-container__groupB">
           <Article
@@ -22,36 +20,21 @@ const Blog = () => {
             date=" june 12 2022"
             title="Let's figure it out together"
           />
-         
-          
-          <Article
-            imgUrl={blog03}
-            date=" june 12 2022"
-            
-            title="Let's figure "
-          />
-       
 
-          
+          <Article imgUrl={blog03} date=" june 12 2022" title="Let's figure it out together " />
+
           <Article
             imgUrl={blog04}
             date=" june 12 2022"
             title="Let's figure it out together"
           />
-         
-         
-          
 
-         
           <Article
             imgUrl={blog05}
             date=" june 12 2022"
             title="Let's figure it out together"
           />
-          
-          </div>
-         
-        
+        </div>
       </div>
     </div>
   );
