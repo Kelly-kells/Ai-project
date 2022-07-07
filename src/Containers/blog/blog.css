@@ -9,6 +9,7 @@
 .gpt3__blog {
   display: flex;
   flex-direction: column;
+  
 }
 .gpt3__blog-heading {
   width: 100%;
@@ -19,6 +20,7 @@
 .gpt3__blog-container {
   display: flex;
   flex-direction: row;
+
 }
 .gbpt3__blog-container__groupA {
   flex: 0.3;
@@ -29,14 +31,12 @@
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+
 
   gap: 10px;
 }
 
-.gbpt3__blog-container__groupB .gbpt3__blog-container__groupB-article{
-    width: 30%;
-}
+
 
 @media screen and (max-width: 990px) {
   .gbpt3__blog-container__groupB {
