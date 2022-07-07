@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links__logo">
           <IoLogoVk color="white" fontSize="3rem" />
-          <p>Cretchwood 173 waf abigjan</p>
+          <p>Cretchwood 173 walf jiont<br/> abigjan</p>
         </div>
 
         <div className="gpt3__footer-links_div">
