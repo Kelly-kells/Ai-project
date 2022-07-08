@@ -16,9 +16,55 @@ a {
   text-decoration: none;
 }
 .gradient-bg {
-  background: radial-gradient(circle, rgba(17,0,28,1) 5%, rgba(137,0,242,1) 15%, rgba(17,0,28,1) 38%);
+  background: radial-gradient(
+    circle,
+    rgba(17, 0, 28, 1) 5%,
+    rgba(137, 0, 242, 1) 15%,
+    rgba(17, 0, 28, 1) 38%
+  );
+
+  background: -moz-radial-gradient
+    (
+      circle,
+      rgba(17, 0, 28, 1) 5%,
+      rgba(137, 0, 242, 1) 15%,
+      rgba(17, 0, 28, 1) 38%
+    );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(17, 0, 28, 1) 5%,
+    rgba(137, 0, 242, 1) 15%,
+    rgba(17, 0, 28, 1) 38%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle,
+    rgba(17, 0, 28, 1) 5%,
+    rgba(137, 0, 242, 1) 15%,
+    rgba(17, 0, 28, 1) 38%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle,
+    rgba(17, 0, 28, 1) 5%,
+    rgba(137, 0, 242, 1) 15%,
+    rgba(17, 0, 28, 1) 38%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle,
+    rgba(17, 0, 28, 1) 5%,
+    rgba(137, 0, 242, 1) 15%,
+    rgba(17, 0, 28, 1) 38%
+  );
 }
-  /**{
+
+/**{
   background: -moz-linear-gradient(
     90deg,
     rgb(1, 13, 20) 6%,
@@ -66,87 +112,60 @@ a {
     rgba(28, 46, 70, 0.88) 99%
   );
 }**/
-.gradient-text{
-  
+.gradient-text {
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.section-padding{
+.section-padding {
   padding: 3rem 3rem;
-
 }
-.section-margin{
+.section-margin {
   margin: 3rem 3rem;
-  
 }
 .scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
- 
- @-webkit-keyframes scale-up-center {
+@-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and(max-width:700px) {
-
-  .section-padding{
-    padding: 1rem ;
-  
+  .section-padding {
+    padding: 1rem;
   }
-  .section-margin{
-    margin: 1rem ;
-    
+  .section-margin {
+    margin: 1rem;
   }
-  
 }
 
 @media screen and(max-width:500px) {
-
-  .section-padding{
+  .section-padding {
     padding: 1rem 1rem;
-  
   }
-  .section-margin{
+  .section-margin {
     margin: 1rem 1rem;
-    
   }
-  
 }
